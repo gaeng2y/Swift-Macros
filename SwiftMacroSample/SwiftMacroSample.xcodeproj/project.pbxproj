@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,6 @@
 		CE140C7B2A701D2A00B1BB52 /* SwiftMacroSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE140C7A2A701D2A00B1BB52 /* SwiftMacroSampleTests.swift */; };
 		CE140C852A701D2A00B1BB52 /* SwiftMacroSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE140C842A701D2A00B1BB52 /* SwiftMacroSampleUITests.swift */; };
 		CE140C872A701D2A00B1BB52 /* SwiftMacroSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE140C862A701D2A00B1BB52 /* SwiftMacroSampleUITestsLaunchTests.swift */; };
-		CE77C7772A71804300A3C040 /* ExampleMarco in Frameworks */ = {isa = PBXBuildFile; productRef = CE77C7762A71804300A3C040 /* ExampleMarco */; };
-		CE77C7792A71804300A3C040 /* ExampleMarcoClient in Frameworks */ = {isa = PBXBuildFile; productRef = CE77C7782A71804300A3C040 /* ExampleMarcoClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE77C7772A71804300A3C040 /* ExampleMarco in Frameworks */,
-				CE77C7792A71804300A3C040 /* ExampleMarcoClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +144,6 @@
 			);
 			name = SwiftMacroSample;
 			packageProductDependencies = (
-				CE77C7762A71804300A3C040 /* ExampleMarco */,
-				CE77C7782A71804300A3C040 /* ExampleMarcoClient */,
 			);
 			productName = SwiftMacroSample;
 			productReference = CE140C662A701D2900B1BB52 /* SwiftMacroSample.app */;
@@ -224,7 +218,6 @@
 			);
 			mainGroup = CE140C5D2A701D2900B1BB52;
 			packageReferences = (
-				CE77C7752A71804300A3C040 /* XCLocalSwiftPackageReference "../ExampleMarco" */,
 			);
 			productRefGroup = CE140C672A701D2900B1BB52 /* Products */;
 			projectDirPath = "";
@@ -599,24 +592,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		CE77C7752A71804300A3C040 /* XCLocalSwiftPackageReference "../ExampleMarco" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ExampleMarco;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CE77C7762A71804300A3C040 /* ExampleMarco */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ExampleMarco;
-		};
-		CE77C7782A71804300A3C040 /* ExampleMarcoClient */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ExampleMarcoClient;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE140C5E2A701D2900B1BB52 /* Project object */;
 }
